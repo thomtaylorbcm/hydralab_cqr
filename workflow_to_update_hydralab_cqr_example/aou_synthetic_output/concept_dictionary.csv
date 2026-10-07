@@ -1,0 +1,21 @@
+key,cid,vocab,code,name,domain,unit
+t2dm,201826,SNOMED,44054006,Type 2 diabetes mellitus,Condition,
+htn,320128,SNOMED,59621000,Essential hypertension,Condition,
+obesity,433736,SNOMED,414916001,Obesity,Condition,
+hld,432867,SNOMED,55822004,Hyperlipidemia,Condition,
+masld,4059290,SNOMED,197315008,Non-alcoholic fatty liver disease,Condition,
+metformin,1503297,RxNorm,6809,Metformin,Drug,
+atorvastatin,1545958,RxNorm,83367,Atorvastatin,Drug,
+lisinopril,1308216,RxNorm,29046,Lisinopril,Drug,
+bmi,3038553,LOINC,39156-5,Body mass index (BMI) [Ratio],Measurement,kg/m2
+sbp,3004249,LOINC,8480-6,Systolic blood pressure,Measurement,mmHg
+dbp,3012888,LOINC,8462-4,Diastolic blood pressure,Measurement,mmHg
+vldl,3022038,LOINC,2091-7,Cholesterol in VLDL [Mass/volume] in Serum or Plasma,Measurement,mg/dL
+trig,3022192,LOINC,3043-7,Triglyceride [Mass/volume] in Blood,Measurement,mg/dL
+a1c,3004410,LOINC,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,Measurement,%
+alt,3006923,LOINC,1742-6,Alanine aminotransferase (ALT) [Enzymatic activity/volume] in Serum or Plasma,Measurement,U/L
+ast,3013721,LOINC,1920-8,Aspartate aminotransferase (AST) [Enzymatic activity/volume] in Serum or Plasma,Measurement,U/L
+alcohol_freq,1586201,PPI,Alcohol_DrinkFrequency,Alcohol use: drink frequency (past year),Observation,
+smoke_status,1585860,PPI,Smoking_SmokeFrequency,Smoking: current cigarette use,Observation,
+phys_act,1585710,PPI,Lifestyle_ModeratePADays,Physical activity: days/week moderate activity,Observation,
+diet,1585790,PPI,OverallHealth_DietQuality,Self-reported diet quality,Observation,
