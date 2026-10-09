@@ -8,6 +8,7 @@ This README.md is intended for additional context to HydraLab and as a tutorial 
 **HydraLab is a method and tool to estimate simulataneous Conformalized Quantile Regression (CQR) heads with 95% Prediction Intervals (PIs) using a masked language model** for predicting continuous lab values and related measurements. These were trained using the ground truth of OMOP `measurement` domain values (LOINC-coded laboratory tests) from clinical free text derived from structured OMOP table data that is transformed into free-text clinical note like structured.
 
 **NIH Clinical and Translational Science Award (CTSA) Acknowledgement**
+
 We are grateful to NIH CTSA program for support of this project through
 the Consortium for Translational & Precision Health (CTPH) (NIH grant number UM1TR004539). The [CTPH](https://www.ctph-texas.org/) is a partnership between [Baylor College of Medicine](https://www.bcm.edu/) and the [Univerisity of Houston](https://www.uh.edu/). Please visit the [CTPH](https://www.ctph-texas.org/) for more information.  
 
