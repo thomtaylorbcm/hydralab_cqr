@@ -1,5 +1,3 @@
-
-
 # HydraLab 
 <img src="hydralab.png" align="right" width="225" alt="">
 
@@ -11,7 +9,7 @@ This README.md is intended for additional context to HydraLab and as a tutorial 
 
 **NIH Clinical and Translational Science Award (CTSA) Acknowledgement**
 We are grateful to NIH CTSA program for support of this project through
-the Consortium for Translational & Precision Health (CTPH) (NIH grant number UM1TR004539). The [CTPH](https://www.ctph-texas.org/) is a partnership between [Baylor College of Medicine](https://www.bcm.edu/) and the [Univerisity of Houston](https://www.uh.edu/). Please visit [us](https://www.ctph-texas.org/) for more information.  
+the Consortium for Translational & Precision Health (CTPH) (NIH grant number UM1TR004539). The [CTPH](https://www.ctph-texas.org/) is a partnership between [Baylor College of Medicine](https://www.bcm.edu/) and the [Univerisity of Houston](https://www.uh.edu/). Please visit the [CTPH](https://www.ctph-texas.org/) for more information.  
 
 **All-of-Us Acknowledgement**
 We gratefully acknowledge All of Us participants for their contributions, without whom this research would not have been possible. We also thank the National Institutes of Health’s All of Us Research Program for making available the participant data used to train the CQR heads in this project.”
@@ -263,7 +261,7 @@ The key consideration in this methodological approach is two-fold
 1. Text-regression frameworks allow us to incorporate all patient specific context. This allows for very patient-specific (personalized prediction) and ***also** leverages a language model to address heterogeneity and noise without requiring resource intensive time from an analyst, data engineering team, or biostatistician time to wrangle and clean refined cohorts with little ability to be adapted to future target environments. This renders translational science of tools and methods more difficult. Language models with text-regression can potentially side-step this challenge is the rationale for why it is implemented here. 
 2. Clinical lab measurements (OMOP measurements table) are heterogenous and may cary extensive heteroskedasticity. This makes Gaussian methodologies (e.g., regression heads) much lest robust to this variation. The Conformalized Quantile Regresison approach is an advancement in the past few years that allows for better Prediction Interval converage of predictions than the more common and familir Gaussian linear regression approach. 
 
-### Methodological Approach
+### Methodological Approach to HydraLab MLP training
 
 **Quantile heads.** Each head is an MultiLayer Perceptron (MLP) ($\text{Linear} \rightarrow \text{GELU} \rightarrow \text{Dropout}$, repeated `depth` times, then a linear output) trained on standardized targets with the multi-quantile pinball loss appropriate for quantile regression (Koenker & Bassett, 1978):
 
