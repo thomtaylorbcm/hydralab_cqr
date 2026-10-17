@@ -22,7 +22,7 @@ For more information about All-of-Us, please visit the [All of Us Research Hub](
 
 A clinical encoder ([Clinical ModernBERT](https://huggingface.co/Simonlee711/Clinical_ModernBERT) transforms each patient's text history into a single embedding. Many small feed-forward "heads" (one per LOINC code, hence *Hydra*) read that shared embedding and each predict a lower, median, and upper quantile for its lab. Each head is then conformally calibrated so its interval reaches the target coverage (95% by default).
 
-This repository ships a set of pre-trained reference heads and a three-notebook tutorial that walks through generating data, loading encoder weights, and updating the heads on new data, including automatically adding heads for LOINC codes the reference set has never seen.
+This repository contains a set of pre-trained reference heads (see ./heads sub-directory) and a three-notebook tutorial that walks through generating data, loading encoder weights, and updating the heads on new data, including automatically adding heads for LOINC codes the reference set has never seen.
 
 ---
 
